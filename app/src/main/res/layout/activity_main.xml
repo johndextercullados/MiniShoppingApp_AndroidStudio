@@ -116,7 +116,7 @@
             android:ems="10"
             android:layout_marginTop="8dp"
             android:inputType="text"
-            android:text="Name"
+            android:text=""
             android:fontFamily="@font/aclonica"
             android:textColor="#D9D2D2"
             android:textSize="30dp"
@@ -126,7 +126,7 @@
             />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnGotopage2"
             android:layout_width="260dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"

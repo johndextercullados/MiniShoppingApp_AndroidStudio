@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cullados_Activity7">
         <activity
+            android:name=".CartScreen"
+            android:exported="false" />
+        <activity
             android:name=".ProductScreen"
             android:exported="false" />
         <activity
