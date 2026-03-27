@@ -112,14 +112,14 @@
         <EditText
             android:id="@+id/editTextText"
             android:layout_width="300dp"
-            android:layout_height="50dp"
+            android:layout_height="45dp"
             android:ems="10"
             android:layout_marginTop="8dp"
             android:inputType="text"
             android:text="Name"
             android:fontFamily="@font/aclonica"
             android:textColor="#D9D2D2"
-            android:textSize="35dp"
+            android:textSize="30dp"
             android:layout_gravity="center"
             android:gravity="center"
             android:background="@drawable/inputname"
@@ -127,9 +127,16 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="match_parent"
+            android:layout_width="260dp"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:text="Unclock Vault"
+            android:background="@drawable/button_bg"
+            app:backgroundTint="@null"
+            android:fontFamily="@font/black_ops_one"
+            android:textColor="#D9D2D2"
+            />
 
 
     </LinearLayout>
