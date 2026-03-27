@@ -17,13 +17,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-
-        EditText et_Name = findViewById(R.id.etName);
-        Button btn_Gotopage2 = findViewById(R.id.btnGotopage2);
-
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
+
+        EditText et_Name = findViewById(R.id.etName);
+        Button btn_Gotopage2 = findViewById(R.id.btnGotopage2);
 
         btn_Gotopage2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,10 +33,9 @@ public class MainActivity extends AppCompatActivity {
                 if(collectorName.isEmpty() || collectorName.equals("")) {
                     et_Name.setText("User1");
                 } else {
-
                     Intent intent = new Intent(MainActivity.this, CategoryScreen.class);
                     //PAPASA UNG NAME
-                    intent.putExtra("user_name", collectorName);
+                    intent.putExtra("USER_NAME", collectorName);
 
                     startActivity(intent);
                 }

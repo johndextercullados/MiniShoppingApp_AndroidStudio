@@ -17,18 +17,18 @@ public class CategoryScreen extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
+        super.onCreate(savedInstanceState);
+        EdgeToEdge.enable(this);
+        setContentView(R.layout.activity_category_screen);
+
         TextView tv_Name = findViewById(R.id.tvName);
         Button btn_Technic = findViewById(R.id.btnTechnic);
         Button btn_Modular = findViewById(R.id.btnModular);
         Button btn_Starwars = findViewById(R.id.btnStarwars);
 
-        super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_category_screen);
-
         // TAGASALO
         String collectorName = getIntent().getStringExtra("USER_NAME");
-        tv_Name.setText(collectorName);
+        tv_Name.setText(collectorName + "!");
 
         //TECHNIC BUTTONNNNNNNNNNNNNNNN
         btn_Technic.setOnClickListener(new View.OnClickListener() {

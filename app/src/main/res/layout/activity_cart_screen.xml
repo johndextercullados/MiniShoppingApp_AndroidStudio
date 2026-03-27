@@ -60,7 +60,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/black_ops_one"
-            android:textSize="30dp"
+            android:textSize="40dp"
             android:gravity="left"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="20dp"
@@ -85,7 +85,7 @@
                 android:gravity="left"
                 android:text="Customer Name: "
                 android:textColor="#000000"
-                android:textSize="15dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <TextView
@@ -96,7 +96,7 @@
                 android:gravity="left"
                 android:text="user name"
                 android:textColor="#000000"
-                android:textSize="15dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -111,7 +111,7 @@
             android:gravity="left"
             android:text="List of orders"
             android:textColor="#000000"
-            android:textSize="15dp"
+            android:textSize="25dp"
             android:textStyle="bold" />
 
 
@@ -132,7 +132,7 @@
                 android:gravity="left"
                 android:text="Total Amount: "
                 android:textColor="#000000"
-                android:textSize="15dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <TextView
@@ -143,7 +143,7 @@
                 android:gravity="left"
                 android:text="cost"
                 android:textColor="#000000"
-                android:textSize="15dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -166,7 +166,8 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
-            android:text="Categories"
+            android:text="Home"
+            android:textColor="#ffffff"
             android:fontFamily="@font/black_ops_one"
             android:background="@drawable/button_bg"
             app:backgroundTint="@null"
@@ -176,6 +177,7 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="Clear Cart"
+            android:textColor="#ffffff"
             android:fontFamily="@font/black_ops_one"
             android:background="@drawable/button_bg"
             app:backgroundTint="@null"

@@ -71,7 +71,7 @@
                 android:gravity="left"
                 android:text="Greetings, "
                 android:textColor="#000000"
-                android:textSize="15dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <TextView
@@ -82,7 +82,7 @@
                 android:gravity="left"
                 android:text="user name"
                 android:textColor="#000000"
-                android:textSize="15dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -125,6 +125,7 @@
                 android:fontFamily="@font/black_ops_one"
                 android:background="@drawable/button_bg"
                 app:backgroundTint="@null"
+                android:textColor="#ffffff"
                 android:layout_marginRight="30dp"
                 />
 
@@ -174,6 +175,7 @@
                 android:fontFamily="@font/black_ops_one"
                 android:background="@drawable/button_bg"
                 app:backgroundTint="@null"
+                android:textColor="#ffffff"
                 android:layout_marginRight="30dp"
                 />
 
@@ -223,6 +225,7 @@
                 android:fontFamily="@font/black_ops_one"
                 android:background="@drawable/button_bg"
                 app:backgroundTint="@null"
+                android:textColor="#ffffff"
                 android:layout_marginRight="30dp"
                 />
 
