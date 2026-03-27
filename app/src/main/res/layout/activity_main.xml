@@ -110,7 +110,7 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/etName"
             android:layout_width="300dp"
             android:layout_height="45dp"
             android:ems="10"

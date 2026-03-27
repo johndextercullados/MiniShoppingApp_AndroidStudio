@@ -1,10 +1,270 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#232121"
     tools:context=".CategoryScreen">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@drawable/myname_bg"
+        >
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="John Dexter V. Cullados"
+            android:fontFamily="@font/aboreto"
+            android:textStyle="bold"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Activity #8"
+            android:fontFamily="@font/aboreto"
+            android:textStyle="bold"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="630dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@drawable/myname_bg"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aclonica"
+                android:layout_marginLeft="20dp"
+                android:gravity="left"
+                android:text="Greetings, "
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aclonica"
+                android:gravity="left"
+                android:text="user name"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/black_ops_one"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="CATEGORY"
+            android:textColor="#000000"
+            />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/linebreak" />
+
+        <!-- button choices -->
+        <!-- technic category -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <Button
+                android:id="@+id/btnTechnic"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:text="Technic Category"
+                android:fontFamily="@font/black_ops_one"
+                android:background="@drawable/button_bg"
+                app:backgroundTint="@null"
+                android:layout_marginRight="30dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/techniclogo"
+                />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="Master the art of mechanical precision. A collection of retired 1:8 scale icons, complex gearboxes, and the pinnacle of LEGO engineering history."
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:textColor="#D9D2D2"
+            android:textSize="10dp"
+            android:fontFamily="@font/aboreto"
+            android:textStyle="bold"
+            />
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/linebreak" />
+
+        <!-- modular category -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+            <Button
+                android:id="@+id/btnModular"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:text="Modular Category"
+                android:fontFamily="@font/black_ops_one"
+                android:background="@drawable/button_bg"
+                app:backgroundTint="@null"
+                android:layout_marginRight="30dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/modularlogo"
+                />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="The cornerstones of the legendary city skyline. Revisit the intricate facades and detailed interiors of the architectural masterpieces that started it all."
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:textColor="#D9D2D2"
+            android:textSize="10dp"
+            android:fontFamily="@font/aboreto"
+            android:textStyle="bold"
+            />
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/linebreak" />
+
+        <!-- starwars category -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+            <Button
+                android:id="@+id/btnStarwars"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:text="Star Wars Category"
+                android:fontFamily="@font/black_ops_one"
+                android:background="@drawable/button_bg"
+                app:backgroundTint="@null"
+                android:layout_marginRight="30dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/starwarslogo"
+                />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="The Ultimate Collector Series Archive. Access massive, display-grade replicas from a galaxy far, far away, meticulously preserved for the true rebel."
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:textColor="#D9D2D2"
+            android:textSize="10dp"
+            android:fontFamily="@font/aboreto"
+            android:textStyle="bold"
+            />
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/linebreak"
+            />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
