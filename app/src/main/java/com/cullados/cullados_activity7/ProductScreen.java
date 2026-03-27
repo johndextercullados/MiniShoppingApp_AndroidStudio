@@ -117,7 +117,9 @@ public class ProductScreen extends AppCompatActivity {
 
                 //GETTING THE NAME OF THE PRODUCT
                 String productName = name1.getText().toString();
-                ordersList += "• " + productName + "\n";
+                String productPrice = price1.getText().toString();
+
+                ordersList += "• " + productName + " - " + productPrice + "\n";
 
                 //TOAST TO LET THE USER KNOW
                 Toast.makeText(ProductScreen.this, productName + " successfully added to cart!", Toast.LENGTH_SHORT).show();
@@ -131,7 +133,9 @@ public class ProductScreen extends AppCompatActivity {
                 totalVaultAmount += price;
 
                 String productName = name2.getText().toString();
-                ordersList += "• " + productName + "\n";
+                String productPrice = price2.getText().toString();
+
+                ordersList += "• " + productName + " - " + productPrice + "\n";
 
                 Toast.makeText(ProductScreen.this, productName + " successfully added to cart!", Toast.LENGTH_SHORT).show();
             }
@@ -144,7 +148,9 @@ public class ProductScreen extends AppCompatActivity {
                 totalVaultAmount += price;
 
                 String productName = name3.getText().toString();
-                ordersList += "• " + productName + "\n";
+                String productPrice = price3.getText().toString();
+
+                ordersList += "• " + productName + " - " + productPrice + "\n";
 
                 Toast.makeText(ProductScreen.this, productName + " successfully added to cart!", Toast.LENGTH_SHORT).show();
             }

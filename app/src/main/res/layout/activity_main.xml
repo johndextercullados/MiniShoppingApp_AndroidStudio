@@ -118,7 +118,7 @@
             android:inputType="text"
             android:text=""
             android:fontFamily="@font/aclonica"
-            android:textColor="#D9D2D2"
+            android:textColor="#D4AF37"
             android:textSize="30dp"
             android:layout_gravity="center"
             android:gravity="center"

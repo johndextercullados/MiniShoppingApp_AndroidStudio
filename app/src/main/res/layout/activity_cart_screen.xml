@@ -95,7 +95,7 @@
                 android:fontFamily="@font/aclonica"
                 android:gravity="left"
                 android:text="user name"
-                android:textColor="#000000"
+                android:textColor="#D4AF37"
                 android:textSize="20dp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -111,7 +111,7 @@
             android:gravity="left"
             android:text="List of orders"
             android:textColor="#000000"
-            android:textSize="25dp"
+            android:textSize="18dp"
             android:textStyle="bold" />
 
 
